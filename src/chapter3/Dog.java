@@ -2,7 +2,8 @@ package chapter3;
 
 public class Dog {
     String name;
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Dog dog1 = new Dog();
         dog1.bark();
         dog1.name = "Burt";
@@ -20,16 +21,20 @@ public class Dog {
         System.out.println(myDogs[2].name);
 
         int x = 0;
-        while (x < myDogs.length){
+        while (x < myDogs.length) {
             myDogs[x].bark();
             x++;
         }
 
     }
 
-    public void bark(){
+    public void bark() {
         System.out.println(name + " GAV!");
     }
-    public void eat(){}
-    public void chaseCat() {}
+
+    public void eat() {
+    }
+
+    public void chaseCat() {
+    }
 }
