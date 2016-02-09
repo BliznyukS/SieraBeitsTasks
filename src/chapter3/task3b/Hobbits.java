@@ -6,9 +6,13 @@ public class Hobbits {
     public static void main(String[] args) {
 
         Hobbits[] hobbit = new Hobbits[3];
-        int z = 0;
+        int z = -1;
+        /*
+        hobbit[0] = new Hobbits();
+        hobbit[1] = new Hobbits();
+        hobbit[2] = new Hobbits();*/
 
-        while (z < 4) {
+        while (z < 2) {
             z++;
             hobbit[z] = new Hobbits();
             hobbit[z].name = "Бильбо";

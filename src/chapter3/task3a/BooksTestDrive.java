@@ -5,6 +5,11 @@ public class BooksTestDrive {
 
         Books[] myBooks = new Books[3];
         int x = 0;
+
+        myBooks[0] = new Books();
+        myBooks[1] = new Books();
+        myBooks[2] = new Books();
+
         myBooks[0].title = "Плоды Java";
         myBooks[1].title = "Java Гетсби";
         myBooks[2].title = "Сборник рецептов по Java";
@@ -14,8 +19,9 @@ public class BooksTestDrive {
         myBooks[2].author = "Ян";
 
         while (x < 3) {
+
             System.out.print(myBooks[x].title);
-            System.out.print(", автор");
+            System.out.print(", автор ");
             System.out.println(myBooks[x].author);
             x++;
         }
