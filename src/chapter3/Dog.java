@@ -1,4 +1,4 @@
-package chapter3.taskDog;
+package chapter3;
 
 public class Dog {
     String name;
