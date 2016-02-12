@@ -1,4 +1,4 @@
-package chapter3.task3b;
+package task3b;
 
 public class Hobbits {
     String name;

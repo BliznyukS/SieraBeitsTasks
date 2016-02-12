@@ -1,4 +1,4 @@
-package chapter3.task3a;
+package task3a;
 
 public class Books {
     String title;

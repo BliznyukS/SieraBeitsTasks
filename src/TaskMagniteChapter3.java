@@ -1,5 +1,3 @@
-package chapter3;
-
 public class TaskMagniteChapter3 {
     public static void main(String[] args) {
         int[] index = new int[4];
